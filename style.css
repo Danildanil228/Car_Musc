@@ -1,0 +1,664 @@
+@font-face {
+    font-family: 'Reformagroteskmediumc';
+    src: url('Reformagroteskmediumc.otf') format('opentype');
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Reformagroteskmediumc', sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none; 
+    user-select: none;
+    background-color: rgba(30, 30, 30, 1);
+    opacity: 0;
+    transition: opacity 1.7s ease-in-out;
+}
+body.loaded {
+    opacity: 1;
+}
+button{
+    font-family: 'Reformagroteskmediumc', sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+header{
+    background-image: url('img/Rectangle\ 64.png');
+    height: 100vh;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.head{
+    display: flex;
+    justify-content: center;
+}
+.nav a{
+    font-size: 30px;
+}
+.links{
+    display: flex;
+    gap: 50px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease;
+}
+.links-footer{
+    display: flex;
+    gap: 50px;
+}
+.links.show {
+    opacity: 1;
+    visibility: visible;
+}
+.nav{
+    display: flex;
+    gap: 800px;
+    margin-top: 40px;
+}
+.im .hov{
+    transition: transform 0.3s ease;
+}
+.im:hover .hov{
+    transform: translateX(-10px);
+}
+.im{
+    cursor: pointer;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    font-size: 150px;
+    margin-top: 150px;
+    color: rgba(219, 49, 56, 1);
+}
+.log-img{
+    margin-top: 20px;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+}
+.lor{
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+}
+.lor2{
+    display: flex;
+    justify-content: center;
+}
+.lor, .lor2{
+    font-size: 40px;
+    color: white;
+}
+.services{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.services button{
+    font-size: 24px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    border: 0;
+    background: transparent;
+    text-align: center; 
+    position: relative;
+    overflow: hidden;
+    transition: background-size 0.5s ease;
+    background-image: linear-gradient(to right, #FF0000 100%, transparent 50%);
+    background-size: 0% 100%;
+    background-repeat: no-repeat;
+    padding: 15px 20px;
+}
+.services button:hover {
+    background-size: 100% 100%;
+}
+.podr button{
+    font-size: 24px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    border: 0;
+    background: transparent;
+    text-align: center; 
+    position: relative;
+    overflow: hidden;
+    transition: background-size 0.5s ease;
+    background-image: linear-gradient(to right, #FF0000 100%, transparent 50%);
+    background-size: 0% 100%;
+    background-repeat: no-repeat;
+    padding: 15px 20px;
+}
+.podr button:hover {
+    background-size: 100% 100%;
+}
+.ff{
+    display: flex;
+    justify-content: center;
+    margin-top: 54px;
+}
+.tab1{
+    padding: 48px;
+    border: solid 1px;
+    width: 640px;
+    color: rgba(137, 137, 137, 1);
+}
+.tab2{
+    padding: 48px;
+    border: solid 1px;
+    width: 640px;
+    color: rgba(137, 137, 137, 1);
+}
+.tab3{
+    padding: 48px;
+    border: solid 1px;
+    width: 640px;
+    color: rgba(137, 137, 137, 1);
+}
+.p1{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+.p2{
+    margin-top: 20px;
+    color: rgba(219, 49, 56, 1);
+    text-align: center;
+    font-size: 30px;
+}
+.p3{
+    color: rgba(219, 49, 56, 1);
+    text-align: center;
+    font-size: 30px;
+}
+main{
+    background-color: rgba(30, 30, 30, 1);
+}
+.achive{
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+.text-1{
+    color: white;  
+    font-size: 52px;
+}
+.text-1-1{
+    color: white;  
+    font-size: 52px;
+    margin-bottom: 40px;
+}
+.t-img{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+.text-2{
+    color: white;
+    font-size: 23px;
+}
+.tab4-1{
+    border: solid 1px;
+    color: rgba(137, 137, 137, 1);
+    width: 318px;
+    height: 177px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.tab4-2{
+    border: solid 1px;
+    color: rgba(137, 137, 137, 1);
+    width: 318px;
+    height: 177px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.tab-tx{
+    color: rgba(219, 49, 56, 1);
+    font-size: 60px;
+}
+.tab-lor{
+    color: white;
+    font-size: 23px;
+}
+.tab5{
+    margin-top: 40px;
+}
+.archive-tab{
+    display: flex;
+}
+.tabb{
+    display: flex;
+}
+.achive{
+    display: flex;
+    gap: 30px;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+    margin-bottom: 180px;
+}
+.slider-tx{
+    display: flex;
+}
+.works1{
+    display: flex;
+}
+.slide{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.img-slide-div{
+    display: flex;
+    gap: 24px;
+}
+.overlay-text{
+    width: 366px;
+    height: 135px;
+    position: absolute;
+    top: 106%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.img-slide{
+    position: relative;
+    display: inline-block;
+}
+.slide-btn{
+    position: relative;
+    display: inline-block;
+    padding: 40px 20px;
+    font-size: 30px;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    font-family: 'Reformagroteskmediumc', sans-serif;
+    cursor: pointer;
+    overflow: hidden;
+    transition: color 0.4s ease;
+    z-index: 1;
+}
+.slide-btn::before {
+    content: "";
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(219, 49, 56, 1);
+    transition: top 0.4s ease;
+    z-index: -1;
+}
+.slide-btn:hover::before {
+    top: 0;
+}
+.slide-btn:hover {
+    color: #fff;
+}
+
+.slide-btn span {
+    position: relative;
+    z-index: 1;
+}
+.pred button{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+.next button{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+.material{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.material-1{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 150px;
+}
+.mat-1{
+    display: flex;
+    gap: 36px;
+    color: white;
+}
+.mat-tx{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+.mat-img{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+.slide-car1-pn{
+    display: flex;
+    color: white;
+    font-size: 28px;
+    gap: 70px;
+    margin-top: 50px;
+}
+.slide-car1-pn button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.slide-car1{
+    margin-bottom: 180px;
+}
+.usl{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 180px;
+}
+.usl div h1{
+    color: white;
+    justify-content: center;
+    display: flex;
+    font-size: 62px;
+}
+.usl-img{
+    display: flex;
+    justify-content: center;
+}
+.usl-img-1{
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+.usl-btn{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.usl .services{
+    margin-bottom: 80px;
+}
+.bord{
+    width: 306px;
+    height: 428px;
+    border: solid 2px rgba(137, 137, 137, 1);
+
+}
+.bord-1{
+    display: flex;
+    gap: 24px;
+}
+.bord{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 29px;
+}
+.bord-tx{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.podr{
+    margin-top: 20px;
+}
+.works{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 62px;
+}
+.works{
+    display: flex;
+    justify-content: center;
+}
+.works-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.qu{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+.qu-tx{
+    display: flex;
+    justify-content: center;
+    font-size: 62px;
+    color: white;
+    margin-bottom: 40px;
+}
+.qu-img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.review-container {
+    border: 2px solid rgba(137, 137, 137, 1);
+    display: flex;
+    gap: 24px;
+    box-sizing: border-box;
+}
+
+.review-input {
+    width: 450px;
+    height: 40px;
+    background-color: transparent;
+    font-family: 'Reformagroteskmediumc', sans-serif;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.review-input:focus {
+    border: none;
+    outline: none;
+}
+
+.review-container:focus-within {
+    border-color: rgba(219, 49, 56, 1);
+}
+.textarea1{
+    display: flex;
+    gap: 60px;
+    margin-bottom: 24px
+}
+.review-container2{
+    border: 2px solid rgba(137, 137, 137, 1);
+    display: flex;
+    width: 850px;
+    height: 160px;
+    gap: 24px;
+    box-sizing: border-box;
+}
+.review-input2{
+    width: 850px;
+    height: 160px;
+    background-color: transparent;
+    font-family: 'Reformagroteskmediumc', sans-serif;
+    color: white;
+    font-size: 35px;
+    align-items: center;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.review-input2:focus {
+    border: none;
+    outline: none;
+}
+
+.review-container2:focus-within {
+    border-color: rgba(219, 49, 56, 1);
+}
+.textarea-2{
+    display: flex;
+    gap: 86px;
+    
+}
+.textarea-img img{
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: solid 2px rgba(137, 137, 137, 1);
+    display: flex;
+    gap: 150px;
+    font-size: 20px;
+    justify-content: center;
+    background-color: rgba(30, 30, 30, 1);
+}
+.f-tx{
+    color: rgba(255, 255, 255, 1);
+    
+}
+.otpr{
+    display: flex;
+    justify-content: center;
+}
+.services3 button{
+    font-size: 24px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    border: 0;
+    background: transparent;
+    text-align: center; 
+    position: relative;
+    overflow: hidden;
+    transition: background-size 0.5s ease;
+    background-image: linear-gradient(to right, #FF0000 100%, transparent 50%);
+    background-size: 0% 100%;
+    background-repeat: no-repeat;
+    padding: 15px 20px;
+}
+.services3 button:hover {
+    background-size: 100% 100%;
+}
+.otpr-tx{
+    color: white;
+    font-size: 25px;
+}
+.otpr-img{
+    display: flex;
+    align-items: center;
+}
+.otpr-img1{
+    display: flex;
+    gap: 40px;
+}
+.otrp-2{
+    display: flex;
+    gap: 500px;
+    margin-top: 24px;
+    margin-bottom: 100px;
+}
+.otrp-tx-1{
+    color: white;
+    font-size: 30px;
+}
+.mat-1-2-okl{
+    font-size: 52px;
+    margin-bottom: 50px;
+}
+.mat-img-1{
+    margin-bottom: 50px;
+}
+.mat-tx-1{
+    color: white;
+    font-size: 42px;
+}
+.log{
+    display: flex;
+    gap: 100px;
+    padding: 57px;
+}
+.prem{
+    color: white;
+    font-size: 62px;
+    margin-bottom: 40px;
+}
+.prem-df{
+    display: flex;
+    justify-content: center;
+}
+.okley{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.okley-tx{
+    text-align: center;
+    color: white;
+    font-size: 62px;
+
+}
+.tab{
+    display: flex;
+    justify-content: center;
+}
+
+.tab-1{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    display: flex;
+    gap: 135px;
+    color: white;
+    font-size: 24px;
+    border-top: solid 2px rgba(137, 137, 137, 1);
+    border-bottom: solid 2px rgba(137, 137, 137, 1);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.tab-2{
+    justify-content: center;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    gap: 140px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    text-align: center;
+    border-bottom: solid 2px rgba(137, 137, 137, 1);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.tab-2 div div{
+    color: #FF0000;
+}
